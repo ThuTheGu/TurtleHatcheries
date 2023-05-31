@@ -11,7 +11,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./bentota\ 1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./donate.jpg);
     background-size: cover;
     background-position: center;
     font-family: Roboto;
@@ -57,7 +57,6 @@ nav{
 .nav-links  li a:hover::after{
    width: 100%;
 }
-
 .register-btn{
     background: #00ff00;
     color: white;
@@ -119,6 +118,7 @@ nav{
     border: 0;
     outline: none;
     cursor: pointer;
+    font-family: Roboto;
 }
 .search-bar form  button img{
     width: 15px;
@@ -131,122 +131,67 @@ nav{
     font-weight: 600;
     font-family: Roboto;
 }
-
-.imgt{
-    margin-left: 75px;
-    margin-right: 75px;
-}
-.img-row{
-    display: inline-flex;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-    margin-right: 23px;
-    margin-left: 23px;
-    
-   
-    
-    
-}
-.img-row img{
-  width: 250px;
-  height: 200px;
-  
-}
-.layer{
-    background:transparent;
-    height:200px;
-    width: 250px;
-    position: absolute;
-    top: 0;
-    left: 0;
-   transition: 0.5s;
-    
-}
-
-.layer:hover{
-    background:rgba(0, 0, 226, 0.7);
-
-}
-.layer h3{
-    width: 100%;
-    font-weight: 500;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    font-family: Open-sans;
-   
-}
-.layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-
-}
-
-
-
-.mpara{
-    margin: 80px 90px;
-    background-color: #00ff00;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    padding: 5%;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
+#para{
     font-family: Oswald;
+    font-weight: 300;
+    font-size: 20px;
     text-align: center;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.mpara:hover{
-    
-    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2) ;
-}
-
-
-
-.details{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    grid-gap: 30px;
-    margin-bottom: 30px;
-    margin-left: 90px;
-    margin-right: 90px;
-    font-family: Roboto;
-    text-align: center;
-}
-.details div{
+.form{
+    display: flex;
     background-color: #00ff00;
-    border-radius: 10px;
-    position: relative;
-    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 10px;
+    border-radius: 20px;
 }
-
-.details #section-1,#section-2,#section-3{
+.form{
+    display: block;
+    
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.btn{
+    margin-left: 70px;
+}
+#subm{
+   margin-left: 40px;
+   margin-right: 45px;
+    font-size: 18px;
+    text-decoration: none;
     color: #fff;
-    padding: 20px 20px 20px 20px;
+    background: #00ccff;
+    border: #00ccff 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }
-.details #section-2,#section-2-header,#section-2-content{
-   background-color:#00ccff ;
+#subm:hover{
+background: #fff;
+color: #00ccff;
+border: #00ccff 1px solid;
 }
-.details #section-1:hover{
-    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2) ;
+#res{
+   
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background: #00ccff;
+    border: #00ccff 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+   
 }
-.details #section-2:hover{
-    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2) ;
+#res:hover{
+    background: #fff;
+    color: #00ccff;
+    border: #00ccff 1px solid;
 }
-.details #section-3:hover{
-    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2) ;
-}
- 
-
 nav .simg{
     display: none;
 }
@@ -272,6 +217,8 @@ nav .simg{
     margin: 0 13px;
     cursor: pointer;
 }
+
+
 
 
 @media only screen and (max-width: 700px){
